@@ -11,8 +11,7 @@ namespace APIVerve.API.SudokuGenerator
     public class SudokuGeneratorQueryOptions
     {
         /// <summary>
-        /// The difficulty level of the Sudoku puzzle to generate (easy, medium, hard, expert)
-        /// Example: medium
+        /// The difficulty level of the Sudoku puzzle to generate
         /// </summary>
         [JsonProperty("difficulty")]
         public string Difficulty { get; set; }
