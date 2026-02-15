@@ -1,1 +1,3 @@
-from .apiClient import SudokuAPIClient
+from .apiClient import SudokuAPIClient, SudokuAPIClientError
+
+__all__ = ['SudokuAPIClient', 'SudokuAPIClientError']
