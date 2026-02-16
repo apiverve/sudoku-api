@@ -236,8 +236,9 @@ from apiverve_sudokugenerator.apiClient import SudokuAPIClient
 
 api = SudokuAPIClient("[YOUR_API_KEY]")
 
+query = { "difficulty": "medium" }
+
 try:
-    query = { "difficulty": "medium" }
     result = api.execute(query)
     print(result)
 finally:
