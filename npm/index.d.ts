@@ -4,31 +4,43 @@ declare module '@apiverve/sudoku' {
     secure?: boolean;
   }
 
+  /**
+   * Describes fields the current plan does not unlock. Locked fields arrive as null
+   * in `data`; `locked_fields` names them, using dot paths for nested fields.
+   * Absent when the plan unlocks everything.
+   */
+  export interface PremiumInfo {
+    message: string;
+    upgrade_url: string;
+    locked_fields: string[];
+  }
+
   export interface sudokuResponse {
     status: string;
     error: string | null;
     data: SudokuGeneratorData;
     code?: number;
+    premium?: PremiumInfo;
   }
 
 
   interface SudokuGeneratorData {
       puzzle:     Puzzle;
       solution:   Puzzle;
-      difficulty: string;
+      difficulty: null | string;
   }
   
   interface Puzzle {
-      grid:  string;
-      html:  string;
+      grid:  null | string;
+      html:  null | string;
       image: Image;
   }
   
   interface Image {
-      imageName:   string;
-      format:      string;
-      downloadURL: string;
-      expires:     number;
+      imageName:   null | string;
+      format:      null | string;
+      downloadURL: null | string;
+      expires:     number | null;
   }
 
   export default class sudokuWrapper {
