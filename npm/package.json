@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/sudoku",
-  "version": "1.2.0",
-  "description": "Sudoku is a simple tool for generating Sudoku puzzles. It returns a Sudoku puzzle.",
+  "version": "1.2.2",
+  "description": "Sudoku Generator creates 9x9 Sudoku puzzle grids across multiple difficulty settings, with empty cells marked as zeros. Paid plans add the full solution grid for validation or hints.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "sudoku", "sudoku api", "sudoku tool", "sudoku software", "sudoku service"
+    "sudoku api", "sudoku generator api", "sudoku puzzle api", "generate sudoku puzzle", "9x9 sudoku grid"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/sudoku-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/sudoku?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/sudoku?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
