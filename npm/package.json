@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/sudoku",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Sudoku Generator creates 9x9 Sudoku puzzle grids across multiple difficulty settings, with empty cells marked as zeros. Paid plans add the full solution grid for validation or hints.",
   "main": "index.js",
   "types": "index.d.ts",
