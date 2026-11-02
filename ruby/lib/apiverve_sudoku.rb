@@ -4,6 +4,6 @@ require_relative "apiverve_sudoku/client"
 
 module APIVerve
   module Sudoku
-    VERSION = "1.2.3"
+    VERSION = "1.2.4"
   end
 end
