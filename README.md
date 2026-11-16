@@ -1,6 +1,6 @@
 # [Sudoku Generator API](https://apiverve.com/marketplace/sudoku?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Sudoku Generator creates 9x9 Sudoku puzzle grids across multiple difficulty settings, with empty cells marked as zeros. Paid plans add the full solution grid for validation or hints.
+Sudoku Generator creates 9x9 Sudoku puzzle grids across multiple difficulty settings, returned as an 81-character row-major string with &quot;-&quot; for empty cells, plus a ready-to-render HTML table and an image. Paid plans add the full solution grid for validation or hints.
 
 The Sudoku Generator API provides a simple, reliable way to integrate sudoku generator functionality into your applications. Built for developers who need production-ready sudoku generator capabilities without the complexity of building from scratch.
 
