@@ -1,6 +1,6 @@
 # Sudoku Generator API - Ruby Gem
 
-Sudoku Generator creates 9x9 Sudoku puzzle grids across multiple difficulty settings, with empty cells marked as zeros. Paid plans add the full solution grid for validation or hints.
+Sudoku Generator creates 9x9 Sudoku puzzle grids across multiple difficulty settings, returned as an 81-character row-major string with "-" for empty cells, plus a ready-to-render HTML table and an image. Paid plans add the full solution grid for validation or hints.
 
 ## Installation
 

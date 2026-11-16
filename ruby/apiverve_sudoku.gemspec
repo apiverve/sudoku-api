@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "apiverve_sudoku"
-  spec.version       = "1.2.5"
+  spec.version       = "1.2.6"
   spec.authors       = ["APIVerve"]
   spec.email         = ["hello@apiverve.com"]
 
   spec.summary       = "Sudoku Generator API - Ruby Client"
-  spec.description   = "Sudoku Generator creates 9x9 Sudoku puzzle grids across multiple difficulty settings, with empty cells marked as zeros. Paid plans add the full solution grid for validation or hints."
+  spec.description   = "Sudoku Generator creates 9x9 Sudoku puzzle grids across multiple difficulty settings, returned as an 81-character row-major string with "-" for empty cells, plus a ready-to-render HTML table and an image. Paid plans add the full solution grid for validation or hints."
   spec.homepage      = "https://apiverve.com/marketplace/sudoku?utm_source=ruby&utm_medium=referral&utm_content=homepage"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
